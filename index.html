@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Empresa de Licores de Cundinamarca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="logo-container">
+                <img src="https://www.micolombiadigital.gov.co/sites/superadmin/content/files/001584/79173.png" alt="Gov Log" class="gov-logo">
+                <span class="gov-title"></span>
+            </div>
+            <div class="right-section">
+                <a href="#" class="login-link">Inicia sesión</a>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="logo-group">
+                <img src="https://ecospoliticos.com/images/economia/Licores_Cundinamarca.png" alt="Logo Empresa" class="logo">
+                <div class="line_vertical"></div>
+                <img src="https://seeklogo.com/images/G/gobernacion-cundinamarca-logo-7470FAB755-seeklogo.com.png" alt="Logo Gobernación" class="logo">
+                <p>Empresa de Licores de Cundinamarca</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar en la entidad">
+                <button type="submit" class="search-button">
+                    <img src="imagenes/busqueda.png" alt="" class="search-icon">
+                </button>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Transparencia y acceso a la información pública</a></li>
+                <li><a href="#">Servicios de atención a la ciudadanía</a></li>
+                <li><a href="#">Participa</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Normatividad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Carrusel -->
+    <div class="carousel">
+        <div class="carousel-slide">
+            <img src="imagenes/Carusell_img1.png" alt="Slide 1">
+        </div>
+
+        <div class="carousel-slide">
+            <img src="imagenes/Carusel_img2.png" alt="Slide 2">
+        </div>
+
+        <div class="carousel-slide">
+            <img src="imagenes/Carusel_img3.png" alt="Slide 3">
+        </div>
+
+        <!-- Botones de navegación -->
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <!-- Sección de Noticias Destacadas -->
+    <section class="noticias-destacadas">
+        <p class="titulo">Noticias destacadas</p>
+        <div class="noticias-container">
+            <!-- Noticia principal -->
+            <div class="noticia-principal">
+                <img src="imagenes/Noticias.png" alt="Noticia Principal">
+                <div class="noticia-contenido">
+                    <a href="#" class="noticia-titulo">¡Ayúdanos a formular la estrategia de Participación Ciudadana.!</a>
+                    <p>La Empresa de Licores de Cundinamarca (ELC) valora la opinión de sus servidores públicos y ciudadanos...</p>
+                    <span class="noticia-fecha">25 junio 2024, 3:06 pm</span>
+                </div>
+            </div>
+
+            <!-- Lista de Noticias Secundarias -->
+            <div class="noticias-secundarias">
+                <div class="noticia-secundaria">
+                    <a href="#" class="noticia-secundaria-titulo">Encuesta satisfacción página web institucional</a>
+                    <p>Gracias por visitar nuestra página web. Nos gustaría conocer su opinión sobre la...</p>
+                    <span class="noticia-fecha">27 mayo 2024, 2:09 pm</span>
+                </div>
+                <div class="noticia-secundaria">
+                    <a href="#" class="noticia-secundaria-titulo">Encuesta de satisfacción del cliente en la venta de alcohol etílico</a>
+                    <p>Evaluar la satisfacción de los clientes que adquieren alcohol etílico...</p>
+                    <span class="noticia-fecha">8 febrero 2024, 12:08 pm</span>
+                </div>
+                <div class="noticia-secundaria">
+                    <a href="#" class="noticia-secundaria-titulo">Certificado Buenas Prácticas de Innovación NTC5801</a>
+                    <p>¡Lo logramos! Recibimos por parte de ICONTEC el Certificado de Buenas Prácticas de Innovación...</p>
+                    <span class="noticia-fecha">28 noviembre 2023, 10:49 am</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="cartas">
+
+            <div class="card">
+                <i><img src="imagenes/documento.png" alt=""></i>
+                <p>Peticiones y quejas</p>
+            </div>
+            <div class="card">
+                <i><img src="imagenes/check.png" alt=""></i>
+                <p>Trámites y servicios</p>
+            </div>
+            <div class="card">
+                <i><img src="imagenes/contrato.png" alt=""></i>
+                <p>Contrataciones</p>
+            </div>
+            <div class="card">
+                <i>📈</i>
+                <p>Rendición de cuentas</p>
+            </div>
+            <div class="card">
+                <i><img src="imagenes/calendario.png" alt=""></i>
+                <p>Calendario</p>
+            </div>
+            <div class="card">
+                <i><img src="imagenes/seleccione.png" alt=""></i>
+                <p>Retos de participación</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="carrusel">
+        <h2 class="titulo-carrusel">Mi Colombia Digital</h2>
+        <div class="carrusel-container">
+            <button class="carrusel-prev">&#10094;</button>
+            <div class="carrusel-items">
+                <div class="carrusel-item">
+                    <img class="imagen1" src="imagenes/car_noti_1.jpg" alt="Imagen 1">
+                    <div class="carrusel-texto">
+                        <a href="#">Findeter entrega reconocimiento al Ministerio TIC por su trabajo de...</a>
+                        <p>Conectar los territorios más apartados de Colombia.</p>
+                        <span>Hace 5 días</span>
+                    </div>
+                </div>
+                <div class="carrusel-item">
+                    <img src="imagenes/car_noti_2.jpg" alt="Imagen 2">
+                    <div class="carrusel-texto">
+                        <a href="#">El Ministerio TIC publicó informe preliminar del primer corte del...</a>
+                        <p>Proceso de asignación de permisos para el uso del espectro del segundo semestre de...</p>
+                        <span>Hace 5 días</span>
+                    </div>
+                </div>
+                <div class="carrusel-item">
+                    <img class="imagen3" src="imagenes/car_noti_3.jpg" alt="Imagen 3">
+                    <div class="carrusel-texto">
+                        <a href="#">50 empresas de la industria digital harán parte gratuitamente de la...</a>
+                        <p>Muestra comercial de Colombia 4.0 2024</p>
+                        <span>Hace 5 días</span>
+                    </div>
+                </div>
+            </div>
+            <button class="carrusel-next">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="contenido-pagina">
+        <div class="ordenar-filtro">
+            <div class="ordenar">
+                <span>Ordenar por: </span>
+                <p class="recientes">Recientes<p>
+                
+            </div>
+            <div class="filtrar">
+                <span>Filtrar por fecha</span>
+                <p class="contenidos">Todos los contenidos<p>
+                    
+            </div>
+        </div>
+    
+        <div class="contenido-listado">
+            <div class="noticia">
+
+                <img src="imagenes/Encuesta1.png" alt="">
+                <p class="fecha">25 junio 2024, 3:06 pm</p>
+                <p class="categoria">Noticias</p>
+                <h3><a href="#">¡Ayúdanos a formular la estrategia de Participación Ciudadana!</a></h3>
+                <p>La Empresa de Licores de Cundinamarca (ELC) valora la opinión de sus servidores públicos y ciudadanos...</p>
+            </div>
+    
+            <div class="documentos">
+                <div class="documento">
+                    <img src="imagenes/archivo-pdf.png" alt="PDF Icon">
+                    <div>
+                        <p class="fecha">27 mayo 2024, 2:36 pm</p>
+                        <p class="categoria">Comité Institucional de Gestión y desempeño</p>
+                        <h3>Acta N°6_12122023</h3>
+                        <p>Actas de comité</p>
+                        <p class="tamano">3 Mb</p>
+                    </div>
+                </div>
+                <div class="documento">
+                    <img src="imagenes/archivo-pdf.png" alt="PDF Icon">
+                    <div>
+                        <p class="fecha">27 mayo 2024, 2:35 pm</p>
+                        <p class="categoria">Comité Institucional de Gestión y desempeño</p>
+                        <h3>Acta N°5_26102023</h3>
+                        <p>Actas de comité</p>
+                        <p class="tamano">1 Mb</p>
+                    </div>
+                </div>
+                <div class="documento">
+                    <img src="imagenes/archivo-pdf.png" alt="PDF Icon">
+                    <div>
+                        <p class="fecha">27 mayo 2024, 2:35 pm</p>
+                        <p class="categoria">Comité Institucional de Gestión y desempeño</p>
+                        <h3>Acta N°4_24082023</h3>
+                        <p>Actas de comité</p>
+                        <p class="tamano">841 Kb</p>
+                    </div>
+                </div>
+                <div class="documento">
+                    <img src="imagenes/archivo-pdf.png" alt="PDF Icon">
+                    <div>
+                        <p class="fecha">27 mayo 2024, 2:34 pm</p>
+                        <p class="categoria">Comité Institucional de Gestión y desempeño</p>
+                        <h3>Acta N°3_21072023</h3>
+                        <p>Actas de comité</p>
+                        <p class="tamano">1 Mb</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-cargar-mas boton_pdf ">Cargar más contenidos</button>
+        </div>
+
+        <div class="carrusel_3">
+            <div class="carrusel-container">
+                <button class="carrusel-prev">&#10094;</button>
+                <div class="carrusel-items">
+                    <div class="carrusel-item">
+                        <img src="imagenes/car3_img1.jpg" alt="Imagen 1">
+                        
+                    </div>
+                    <div class="carrusel-item">
+                        <img src="imagenes/car3_img2.jpg" alt="Imagen 2">
+                        
+                    </div>
+                    <div class="carrusel-item">
+                        <img src="imagenes/car3_img3.jpg" alt="Imagen 3">
+                        
+                    </div>
+                    <div class="carrusel-item">
+                        <img src="imagenes/car3_img4.jpg" alt="Imagen 3">
+                        
+                    </div>
+                </div>
+
+                <div class="botonpdf">
+                    <button class="carrusel-next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
